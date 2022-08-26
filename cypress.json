@@ -1,0 +1,19 @@
+{
+    "$schema": "https://on.cypress.io/cypress.schema.json",
+    "baseUrl": "https://en.wikipedia.org/",
+    "env": {
+        "url": "https://en.wikipedia.org/"
+    },
+    "reporter": "mochawesome",
+    "reporterOptions": {
+      "reportDir": "cypress/reports",
+      "reportFilename": "report",
+      "overwrite": true,
+      "html": true,
+      "json": true,
+      "charts": true
+    },
+    "video": true,
+    "projectId": "h37sge"
+  }
+  
